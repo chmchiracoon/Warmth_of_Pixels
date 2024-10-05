@@ -299,7 +299,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _HeightMultiplier: 0.5
-    - _HeightScale: 1
+    - _HeightScale: 0
     - _ISADD: 0
     - _ISICE: 0
     - _ISROCK: 0
