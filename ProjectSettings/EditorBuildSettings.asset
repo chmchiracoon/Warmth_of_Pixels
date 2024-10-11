@@ -5,21 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 55daccc09a3b69647bbab145b54a3ab3
-  - enabled: 0
-    path: Assets/Scenes/Korea.unity
-    guid: 3050156dc5fa90a44bc0e61e58dfeccb
-  - enabled: 0
-    path: Assets/Scenes/test.unity
-    guid: 5a6d6a2aa394e5144bb6f6ec5685337a
-  - enabled: 0
-    path: Assets/Scenes/Korea small version.unity
-    guid: 3711a2b5a55b8f443b5131b0992d2990
   - enabled: 1
-    path: Assets/Scenes/Korea VR version.unity
-    guid: 141c7970596384f478f7f0791a379491
+    path: Assets/Scenes/Dutch.unity
+    guid: 37ae72b9e4e5b3e488b8938836d2d0be
+  - enabled: 0
+    path: Assets/Scenes/Dutch-BW.unity
+    guid: 5398afcc7f2db324eb6e874dcbb94d68
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
