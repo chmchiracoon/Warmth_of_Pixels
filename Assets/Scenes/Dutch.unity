@@ -1631,7 +1631,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &542912052
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -7293,8 +7293,8 @@ GameObject:
   - component: {fileID: 635313259}
   - component: {fileID: 635313262}
   - component: {fileID: 635313261}
-  - component: {fileID: 635313260}
   - component: {fileID: 635313263}
+  - component: {fileID: 635313260}
   m_Layer: 0
   m_Name: ParticleSystemTrigger
   m_TagString: Untagged
@@ -7311,7 +7311,7 @@ Transform:
   m_GameObject: {fileID: 635313258}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.9, y: 0, z: -4.21}
+  m_LocalPosition: {x: -3.9, y: 0, z: -4.21}
   m_LocalScale: {x: 14.393279, y: 14.393279, z: 14.393279}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -7397,10 +7397,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 635313258}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b077a2093fd2fd41916fd8229246c5e, type: 3}
+  m_Script: {fileID: 11500000, guid: e4248437c1271324c90d82d4b2682466, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ParticleSystem1: {fileID: 542912053}
+  activeGameObject: {fileID: 919132147675719386}
 --- !u!1 &648533297
 GameObject:
   m_ObjectHideFlags: 0
@@ -7901,6 +7901,89 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d300c554f4589a640a733a84d30422d4, type: 3}
+--- !u!1 &895522544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 895522545}
+  - component: {fileID: 895522547}
+  - component: {fileID: 895522546}
+  m_Layer: 0
+  m_Name: AuroraPlane (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &895522545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895522544}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6068122, y: 0.60681194, z: 0.36301413, w: 0.3630139}
+  m_LocalPosition: {x: -141.90002, y: 145.4, z: 0}
+  m_LocalScale: {x: 100, y: 714.04407, z: 100}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 543450651865791584}
+  m_LocalEulerAnglesHint: {x: 0, y: -241.778, z: 90}
+--- !u!23 &895522546
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895522544}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b43b9a680f383b747b57a51bf67cb9b1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &895522547
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895522544}
+  m_Mesh: {fileID: -4044911505423619720, guid: 8b105ec40746b1a40a2c08482f95e417, type: 3}
 --- !u!1001 &906609107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10747,7 +10830,19 @@ MonoBehaviour:
       m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls: []
@@ -12456,7 +12551,7 @@ Transform:
   m_GameObject: {fileID: 2146471616}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -666.1, y: 8.68, z: -111.99}
+  m_LocalPosition: {x: -658.8, y: 8.68, z: -111.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12902,6 +12997,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4177141890946510773}
+  - {fileID: 895522545}
   - {fileID: 1434877448}
   - {fileID: 700679892}
   - {fileID: 8776096138976074805}
@@ -12982,7 +13078,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450651865791584}
   m_Layer: 0
-  m_Name: blender
+  m_Name: aurora
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
