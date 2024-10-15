@@ -8255,6 +8255,7 @@ GameObject:
   - component: {fileID: 957438066}
   - component: {fileID: 957438065}
   - component: {fileID: 957438064}
+  - component: {fileID: 957438069}
   m_Layer: 0
   m_Name: Interactable Rock 6 (2)
   m_TagString: Untagged
@@ -8271,7 +8272,7 @@ Transform:
   m_GameObject: {fileID: 957438062}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.000000087422784, z: -0, w: 1}
-  m_LocalPosition: {x: -63.87, y: 4.17, z: 4.68}
+  m_LocalPosition: {x: -63.87, y: 4.17, z: 3.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -8306,7 +8307,19 @@ MonoBehaviour:
   m_AllowGazeAssistance: 0
   m_FirstHoverEntered:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 957438069}
+        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_LastHoverExited:
     m_PersistentCalls:
       m_Calls: []
@@ -8498,6 +8511,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 957438062}
   m_Mesh: {fileID: -7974737403600478771, guid: 32695f33a844be84b8ec6175e54df80f, type: 3}
+--- !u!95 &957438069
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957438062}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8179e61242ab5d84ca005400576ad8d1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &971544553
 GameObject:
   m_ObjectHideFlags: 0
@@ -13433,7 +13467,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1001 &1121053320424228811
 PrefabInstance:
   m_ObjectHideFlags: 0
