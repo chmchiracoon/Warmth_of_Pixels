@@ -8719,7 +8719,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1032170948}
   m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: e9d790d095cd56b4381329f7a1a9e565, type: 3}
+  m_Asset: {fileID: 0}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
@@ -9884,7 +9884,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!154 &1332600127
 TerrainCollider:
   m_ObjectHideFlags: 0
@@ -12233,7 +12233,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1706789512}
   m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: e9d790d095cd56b4381329f7a1a9e565, type: 3}
+  m_Asset: {fileID: 0}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
@@ -13463,7 +13463,7 @@ VisualEffect:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146471616}
   m_Enabled: 1
-  m_Asset: {fileID: 8926484042661614526, guid: e9d790d095cd56b4381329f7a1a9e565, type: 3}
+  m_Asset: {fileID: 0}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
